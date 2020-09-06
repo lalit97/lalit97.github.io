@@ -1,0 +1,90 @@
+/* common css */
+body {
+  font-family: "Avenir";
+  font-weight: 400;
+  letter-spacing: 0.01rem;
+  line-height: 1.6;
+}
+
+a,
+h5,
+a:hover {
+  color: #ec5e3d;
+}
+
+h4 {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.navbar-light .navbar-brand {
+  color: #ec5e3d;
+  font-size: xx-large;
+}
+
+.navbar {
+  margin-top: 15px;
+  margin-right: 160px;
+}
+
+.navbar li a:hover {
+  color: #ec5e3d !important;
+}
+/* index page */
+.site-header {
+  font-weight: 400;
+  color: #ec5e3d;
+  margin: 0px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.site-header-a {
+  text-decoration: none !important;
+}
+
+.site-header-mini {
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.site-header-line {
+  height: 0px;
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.img-responsive {
+  border: 1px solid #dfdfdf;
+}
+
+/* Writings Page */
+.date {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li::before {
+  content: "\2022";
+  color: #ec5e3d;
+  font-weight: bold;
+  margin-left: -1em;
+}
+
+/* footer */
+.footer {
+  padding: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ec5e3d;
+  color: white;
+  text-align: center;
+}
